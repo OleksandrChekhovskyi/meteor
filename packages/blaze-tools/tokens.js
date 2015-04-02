@@ -18,7 +18,6 @@ var unicodeClass = function (abbrev) {
     unicodeCategories[abbrev].replace(/[0-9A-F]{4}/ig, "\\u$&") + ']';
 };
 
-// Special handlebars-reserved identifiers, usually starting with '@'
 // Other candidates to be in this list: '@last', '@first', '@key'
 var reservedIds = ['@index'];
 
